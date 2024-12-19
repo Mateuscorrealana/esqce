@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 1rem;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    left: 0%;
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+img {
+    width: 10rem;
+}
+
+h1 {
+    padding-left: 1rem;
+    color: #0B0C0D;
+    text-align: center;
+    font-family: 'Cabin';
+    font-size: large;
+    padding: 1rem;
+}
+
+h2 {
+    padding-left: 1rem;
+    color: #0B0C0D;
+    text-align: center;
+    font-family: 'Cabin';
+    font-size: small;
+    padding: 0;
+}
+
+div {
+    display: flex; 
+    justify-content: flex-end; 
+    padding-right: 2rem;
+}
+
+.pesquisar-conteiner {
+    position: relative; /* Para posicionar a imagem em relação ao input */
+}
+
+#pesquisa {
+    padding: 0.5rem; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda do campo de pesquisa */
+    border-radius: 4px; /* Bordas arredondadas */
+    flex: 1; /* Faz o input ocupar o espaço disponível */
+    padding-left: 2.5rem; /* Espaçamento à esquerda para a imagem da lupa */
+}
+
+#lupa {
+    position: absolute; /* Posiciona a imagem de forma absoluta */
+    left: 0.5rem; /* Distância da borda esquerda do input */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Ajusta a posição vertical */
+    width: 1.5rem; /* Ajuste o tamanho da imagem da lupa */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+#pesquisar-btn {
+    color: blue;
+}
+
+#pesquisar-btn {
+    background-color: transparent; /* Fundo transparente */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    padding: 0.5rem; /* Espaçamento interno */
+}
